@@ -14,34 +14,3 @@ hr {
   background-image: url('../img/hr.png');
 }
 
-
-
-
-
-
-
-
-/* put in layout */
-aside button {
-  float: right;
-  font-family: 'Abel', sans-serif;
-  text-transform: uppercase;
-  padding: 15px 40px;
-  background: #b8705a;
-  color: #fff;
-  font-size: 1.2em;
-  border: none;
-}
-
-/* put in layout */
-aside img {
-  float: left;
-}
-
-/* put in layout */
-.recipe li {
-  float: left;
-  width: 40%;
-  font-size: 1.3em;
-  line-height: 31px;
-}

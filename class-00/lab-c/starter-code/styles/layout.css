@@ -12,6 +12,15 @@ nav {
   margin-top: 25px;
 }
 
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  padding-right: 2px;
+}
+
 #logo {
   float: left;
   padding-bottom: 25px;
@@ -31,4 +40,33 @@ nav {
   text-decoration: none;
   padding-left: 30px;
   float: right;
+}
+
+aside img {
+  float: left;
+}
+
+.recipe li {
+  float: left;
+  width: 40%;
+  font-size: 1.3em;
+  line-height: 31px;
+}
+
+aside button {
+  float: right;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  background: #b8705a;
+  color: #fff;
+  font-size: 1.2em;
+  border: none;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
 }
