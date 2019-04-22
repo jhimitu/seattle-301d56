@@ -37,7 +37,7 @@ function displayPics(){
   }
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // RESPONSE: The code threw an error because `let` is block scoped. Because it is declared within the while loops' code block, it only applies inside those curly braces. With regards to `var`, it doesn't really recognize any and every code block when it comes to scope. It primarily recognizes function code blocks. So when you look at the console, because the while loop is inside the function code block, it's fair game and you will see it logged to the console.
+  // RESPONSE: The code threw an error because `let` is block scoped. Because it is declared within the while loops' code block, it only applies inside those curly braces. With regards to `var`, it doesn't really recognize any and every code block when it comes to scope. It primarily recognizes function code blocks. So when you look at the console, because the while loop is inside the function code block, it's fair game and you can see it logged to the console.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
