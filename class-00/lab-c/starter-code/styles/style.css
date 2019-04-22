@@ -1,16 +1,4 @@
-nav ul {
-  float: right;
-}
 
-nav li {
-  float: left;
-  padding-right: 2px;
-}
 
-hr {
-  clear: both;
-  border: 0;
-  height: 13px;
-  background-image: url('../img/hr.png');
-}
+
 
